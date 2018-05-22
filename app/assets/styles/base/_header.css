@@ -2,11 +2,19 @@
     position: absolute;
     width: 100%;
     top: 0;
-    background-color: $mainBlue;
+    background-color: rgba($mainBlue, 0.4);
     z-index: 2;
     height: 90px;
 
     &__logo, &__brand {
         float: left;
+    }
+
+    &__logo {
+        padding: 6px 10px 6px 0;
+    }
+
+    &__brand {
+        padding: 22px 0;
     }
 }
