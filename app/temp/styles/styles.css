@@ -340,3 +340,76 @@ template {
 [hidden] {
   display: none;
 }
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+.wrapper {
+
+    padding: 0 50px;
+}
+
+.wrapper::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    background-color: #0D244B;
+    z-index: 2;
+    height: 90px;
+}
+
+.header__logo, .header__brand {
+        float: left;
+    }
+
+.navbar--right {
+        float: right;
+    }
+
+.navbar ul::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+.navbar li {
+        list-style: none;
+        float: left;
+    }
+
+.navbar li:not(:last-child) {
+        padding-right: 55px;
+    }
+
+.navbar a {
+        display: block;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+        font-size: 29;
+        font-weight: 900;
+        padding: 35px 0;
+    }
+
+.navbar a:hover {
+        color: #F9DE4A;
+    }
