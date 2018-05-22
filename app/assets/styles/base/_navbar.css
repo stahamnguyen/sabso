@@ -1,0 +1,35 @@
+.navbar {
+
+    &--right {
+        float: right;
+    }
+
+    ul {
+        @mixin clearFix;
+    }
+
+    li {
+        list-style: none;
+        float: left;
+    }
+
+    li:not(:last-child) {
+        padding-right: 55px;
+    }
+
+    a {
+        display: block;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $white;
+        font-size: 29;
+        font-weight: 900;
+        padding: 35px 0;
+    }
+
+    a:hover {
+        color: $mainYellow;
+    }
+}
+
+        

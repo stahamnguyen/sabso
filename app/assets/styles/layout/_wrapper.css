@@ -1,0 +1,6 @@
+.wrapper {
+
+    @mixin clearFix;
+
+    padding: 0 50px;
+}
