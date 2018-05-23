@@ -13,8 +13,8 @@
         float: left;
     }
 
-    li:not(:last-child) {
-        padding-right: 55px;
+    li:not(:first-child) {
+        margin-left: 55px;
     }
 
     a {

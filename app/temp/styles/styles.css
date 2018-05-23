@@ -425,6 +425,12 @@ img {
             color: #0D244B;
         }
 
+.button--blue {
+        background-color: #0D244B;
+        border: 3px solid #0D244B;
+        color: white;
+    }
+
 .header {
     position: absolute;
     width: 100%;
@@ -461,8 +467,8 @@ img {
         float: left;
     }
 
-.navbar li:not(:last-child) {
-        padding-right: 55px;
+.navbar li:not(:first-child) {
+        margin-left: 55px;
     }
 
 .navbar a {
@@ -589,7 +595,83 @@ img {
             margin-left: calc((100% - 760px)/2);
         }
 
-/* @import "components/_general-information.css"; */
+.about_us {
+
+    position: relative;
+    padding: 50px 50px 300px 50px;
+    background-color: #FEED00;
+    text-align: center;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+}
+
+.about_us__content {
+        position: relative;
+        text-align: center;
+        display: inline-block;
+        background-color: white;
+        width: 35%;
+        padding: 38px 27px;
+        vertical-align: middle;
+        -webkit-transform: translateX(25%);
+                transform: translateX(25%);
+        box-shadow: 0 0 30px rgba(0,0,0, .2);
+    }
+
+.about_us__content__title {
+            text-align: left;
+            margin: 0;
+            text-transform: capitalize;
+            margin-bottom: 20px;
+            font-weight: 900;
+        }
+
+.about_us__content__subtitle {
+            text-align: left;
+            text-transform: uppercase;
+            font-weight: 300;
+            margin-bottom: 5px;
+        }
+
+.about_us__content__subtitle--opacity_60 {
+                opacity: 0.6;
+            }
+
+.about_us__content__main_text {
+            text-align: left;
+            font-size: .9rem;
+            font-weight: 400;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+.about_us__content__bride {
+            position: absolute;
+            background-color: #FEED00;
+            width: 50px;
+            height: 10px;
+            top: 15%;
+            right: 0;
+            -webkit-transform: translate(50%, -50%);
+                    transform: translate(50%, -50%);
+        }
+
+.about_us__content button {
+            width: 55%;
+        }
+
+.about_us__content button span {
+                color: white;
+                text-transform: lowercase;
+            }
+
+.about_us__image {
+        display: inline-block;
+        width: 60%;
+        height: auto;
+        vertical-align: middle;
+        box-shadow: 0 0 30px rgba(0,0,0, .3); 
+    }
 
 .email {
     background-color: #EBF6FF;

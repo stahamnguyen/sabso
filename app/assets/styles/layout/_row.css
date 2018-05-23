@@ -1,5 +1,4 @@
 .row {
-
     @mixin clearFix;
     padding: 0 100px;
 
