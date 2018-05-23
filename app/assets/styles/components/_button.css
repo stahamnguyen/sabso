@@ -1,0 +1,29 @@
+.button {
+    width: 200px;
+    padding: 12px 0;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    border: 3px solid $mainYellow;
+    cursor: pointer;
+
+    &--yellow {
+        background-color: $mainYellow;
+
+        &:hover {
+            background-color: transparent;
+            border: 3px solid $mainYellow;
+            color: $mainYellow;
+        }
+    }
+
+    &--transparent {
+        background-color: transparent;
+        border: 3px solid $mainYellow;
+        color: $mainYellow;
+
+        &:hover {
+            background-color: $mainYellow;
+            color: $mainBlue;
+        }
+    }
+}
