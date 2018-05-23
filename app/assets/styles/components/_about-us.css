@@ -1,11 +1,11 @@
 .about_us {
 
     position: relative;
-    padding: 50px 50px 200px 50px;
+    padding: 50px 50px 300px 50px;
     background-color: $mainYellow;
     text-align: center;
-    border-bottom-left-radius: 30%;
-    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
 
     &__content {
         position: relative;
