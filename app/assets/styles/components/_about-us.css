@@ -1,0 +1,75 @@
+.about_us {
+
+    position: relative;
+    padding: 50px 50px 200px 50px;
+    background-color: $mainYellow;
+    text-align: center;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+
+    &__content {
+        position: relative;
+        text-align: center;
+        display: inline-block;
+        background-color: white;
+        width: 35%;
+        padding: 38px 27px;
+        vertical-align: middle;
+        transform: translateX(25%);
+        box-shadow: 0 0 30px rgba(#000, .2); 
+
+        &__title {
+            text-align: left;
+            margin: 0;
+            text-transform: capitalize;
+            margin-bottom: 20px;
+            font-weight: 900;
+        }
+
+        &__subtitle {
+            text-align: left;
+            text-transform: uppercase;
+            font-weight: 300;
+            margin-bottom: 5px;
+
+            &--opacity_60 {
+                opacity: 0.6;
+            }
+        }
+
+        &__main_text {
+            text-align: left;
+            font-size: .9rem;
+            font-weight: 400;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        &__bride {
+            position: absolute;
+            background-color: $mainYellow;
+            width: 50px;
+            height: 10px;
+            top: 15%;
+            right: 0;
+            transform: translate(50%, -50%);
+        }
+
+        button {
+            width: 55%;
+
+            span {
+                color: white;
+                text-transform: lowercase;
+            }
+        }
+    }
+
+    &__image {
+        display: inline-block;
+        width: 60%;
+        height: auto;
+        vertical-align: middle;
+        box-shadow: 0 0 30px rgba(#000, .3); 
+    }
+}
