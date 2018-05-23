@@ -1,0 +1,21 @@
+.clients {
+    background-color: $lightBlue;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+
+    &__title {
+        text-transform: capitalize;
+        margin-top: 0;
+        margin-bottom: 40px;
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+
+    &__logos_container {
+
+        img:not(:first-child) {
+            margin-left: 50px;
+        }
+    }
+}

@@ -463,6 +463,11 @@ img {
     position: relative;
 }
 
+.hero img {
+        width: 100%;
+        display: block;
+    }
+
 .hero__text_content {
         position: absolute;
         width: 100%;
@@ -528,19 +533,35 @@ img {
                 color: white;
             }
 
-.hero__technologies__title {
-            display: inline-block;
-            margin-left: 40px;
-            -webkit-transform: translateX(-20px);
-                    transform: translateX(-20px);
-            text-transform: uppercase;
-            font-weight: 700;
-            font-size: 2.25rem;
-        }
-
-.hero__technologies__title--white {
+.hero__technologies__title_container h1 {
+                display: inline-block;
+                margin-left: 40px;
+                -webkit-transform: translateX(-20px);
+                        transform: translateX(-20px);
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 2.25rem;
                 color: white;
             }
+
+.clients {
+    background-color: #EBF6FF;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.clients__title {
+        text-transform: capitalize;
+        margin-top: 0;
+        margin-bottom: 40px;
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+
+.clients__logos_container img:not(:first-child) {
+            margin-left: 50px;
+        }
 
 .email{
     background-color: #EBF6FF; 

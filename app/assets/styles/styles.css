@@ -9,4 +9,5 @@
 @import "base/_header.css";
 @import "base/_navbar.css";
 @import "components/_hero.css";
+@import "components/_clients.css";
 @import "components/_form.css";
