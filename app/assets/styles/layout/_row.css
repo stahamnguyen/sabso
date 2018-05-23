@@ -1,6 +1,10 @@
 .row {
 
     @mixin clearFix;
+    padding: 0 100px;
 
-    
+    &__12 {
+        float: left;
+        width: 100%;
+    }
 }
