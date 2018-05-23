@@ -10,9 +10,5 @@
 @import "base/_navbar.css";
 @import "components/_hero.css";
 @import "components/_clients.css";
-<<<<<<< HEAD
 @import "components/_about-us.css";
-=======
-/* @import "components/_general-information.css"; */
->>>>>>> 2130fda1890b6232db127244c4293ceb7a736b2c
 @import "components/_form.css";

@@ -583,7 +583,6 @@ img {
             margin-left: calc((100% - 760px)/2);
         }
 
-<<<<<<< HEAD
 .about_us {
 
     position: relative;
@@ -593,9 +592,6 @@ img {
     border-bottom-left-radius: 30%;
     border-bottom-right-radius: 30%;
 }
-=======
-/* @import "components/_general-information.css"; */
->>>>>>> 2130fda1890b6232db127244c4293ceb7a736b2c
 
 .about_us__content {
         position: relative;
