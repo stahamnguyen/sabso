@@ -577,56 +577,78 @@ img {
             margin-left: calc((100% - 760px)/2);
         }
 
-.general_information {
-    background-color: #FEED00;
-}
+/* @import "components/_general-information.css"; */
 
 .email{
-    background-color: #EBF6FF; 
+    background-color: #EBF6FF;
+    padding: 10px 10px 40px; 
 }
 
-.email__text,
-    .email__title {
-        text-align: center;
-        padding:10px;
-
+.email h1 {
+        margin: 0;
     }
 
+.email__title {
+        text-align: center;
+        padding:10px;
+        font-size: 64px;
+        font-weight: bold;
+    }
+
+.email__text {
+        text-align: center;
+        padding: 0 0 30px;
+    }
+
+.email__text strong {
+            border-bottom: 3px solid #FEED00;
+            /* padding: 0 0 20px; */
+        }
+
 .email__form {
-        width: 780px;
-        height: 590px;
+        width: 50%;
+        height: auto;
         background-color: #ffffff;
         box-shadow: 0 13px 20px 0 rgba(0, 0, 0, 0.25);
-        margin: 40px auto;
+        margin: 0px auto;
+        padding: 10px 10px 20px;
         
         
     }
 
 .email__form textarea {
-            width: 90%;
+            display: block;
+            width: 80%;
+            border: solid 1px rgba(220, 220, 220, 0.78);
             border-radius: 4px;
-            margin: 20px, auto;
+            margin: 30px auto;
+            box-sizing: border-box;
+            padding: 10px;
         }
 
 .email__form textarea::-webkit-input-placeholder {
                 color: #0D244B;
+                padding: 10px;
             }
 
 .email__form textarea:-ms-input-placeholder {
                 color: #0D244B;
+                padding: 10px;
             }
 
 .email__form textarea::-ms-input-placeholder {
                 color: #0D244B;
+                padding: 10px;
             }
 
 .email__form textarea::placeholder {
                 color: #0D244B;
+                padding: 10px;
             }
 
 .email__form input {
-            margin: 10px;;
-            padding: 20px;
+            display: block;
+            margin: 20px auto;
         }
 
 .email__form input::-webkit-input-placeholder {
@@ -649,19 +671,20 @@ img {
             .email__form input[type="email"],
             .email__form input[type="subject"],
             .email__form input[type="phone"] {
-                width: 90%;
+                width: 95%;
                 border: none;
                 border-bottom: solid 1px rgba(220, 220, 220, 0.78);
                 display: block;
-                padding: 12px 20px;
+                padding: 12px 0;
+                
             }
 
 .email__form input[type="submit"] {
                 background-color: #FEED00;
                 color: #0D244B;
+                font-weight: bold;
                 padding: 12px 20px;
                 border: none;
                 border-radius: 4px;
-                margin: 20px auto;
                 
             }
