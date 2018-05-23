@@ -388,28 +388,28 @@ img {
     padding: 12px 0;
     font-size: 1.25rem;
     text-transform: capitalize;
-    border: 3px solid #F9DE4A;
+    border: 3px solid #FEED00;
     cursor: pointer;
 }
 
 .button--yellow {
-        background-color: #F9DE4A;
+        background-color: #FEED00;
     }
 
 .button--yellow:hover {
             background-color: transparent;
-            border: 3px solid #F9DE4A;
-            color: #F9DE4A;
+            border: 3px solid #FEED00;
+            color: #FEED00;
         }
 
 .button--transparent {
         background-color: transparent;
-        border: 3px solid #F9DE4A;
-        color: #F9DE4A;
+        border: 3px solid #FEED00;
+        color: #FEED00;
     }
 
 .button--transparent:hover {
-            background-color: #F9DE4A;
+            background-color: #FEED00;
             color: #0D244B;
         }
 
@@ -464,7 +464,7 @@ img {
     }
 
 .navbar a:hover {
-        color: #F9DE4A;
+        color: #FEED00;
     }
 
 .hero {
@@ -493,7 +493,7 @@ img {
         }
 
 .hero__text_content__title--yellow {
-                color: #F9DE4A;
+                color: #FEED00;
                 font-weight: 900;
                 font-size: 60px;
             }
@@ -577,6 +577,10 @@ img {
             margin-left: calc((100% - 760px)/2);
         }
 
+.general_information {
+    background-color: #FEED00;
+}
+
 .email{
     background-color: #EBF6FF; 
 }
@@ -653,7 +657,7 @@ img {
             }
 
 .email__form input[type="submit"] {
-                background-color: #F9DE4A;
+                background-color: #FEED00;
                 color: #0D244B;
                 padding: 12px 20px;
                 border: none;

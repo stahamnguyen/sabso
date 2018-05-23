@@ -10,4 +10,5 @@
 @import "base/_navbar.css";
 @import "components/_hero.css";
 @import "components/_clients.css";
+@import "components/_general-information.css";
 @import "components/_form.css";
