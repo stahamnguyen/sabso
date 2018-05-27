@@ -15,45 +15,24 @@
     }
 
     &__images_container {
-        width: 400px;
-        height: 400px;
-        float: left;
-        margin: 0;
-        padding: 0;
+        width: 55%;
+        height: auto;
+        margin: 20px auto;
         
         &__item {
-            width: 100%;
-            height: 100%;
+            width: 48.5%;
+            float: left;
             display: block;
-            margin: 0;
-            padding: 0;
+            margin: 0 4px 0 0;
+            box-shadow: 0 13px 20px 0 rgba(0, 0, 0, 0.25);
 
             &--small{
-                width: 49.5%;
-                height: 49.5%;
+                width: 24%;
+                height: 24%;
+                margin:0 2px 2px;
+                box-shadow: 0 13px 20px 0 rgba(0, 0, 0, 0.25);
             }
         }
-    }
-    
-
-    &__images {
-        width: 59%;
-        margin: 20px auto;
-        box-sizing: border-box;
-
-        &__item{
-            width: 22%;
-            margin: 0 8px 30px;
-            box-shadow: 0 13px 20px 0 rgba(0, 0, 0, 0.25);
-        }
-        &__item--big{
-            float: left;
-            width: 48%;
-            margin: 0 10px 0 0;
-            box-shadow: 0 13px 20px 0 rgba(0, 0, 0, 0.25);
-        }
-
-
     }
 
     &__button--blue{
@@ -68,8 +47,52 @@
         color: white;
         box-shadow: 0 13px 20px 0 rgba(0, 0, 0, 0.25);
     }
+}
 
+@media (max-width: 930px) {
+    .gallery__images_container {
+        width: 80%;
+        height: auto;
+        margin: 20px auto;
     
+        &__item {
+            width: 49%;
+            float: left;
+            display: block;
+            margin: 0 4px 0 0;
+            box-shadow: 0 13px 20px 0 rgba(0, 0, 0, 0.25);
+
+            &--small{
+                width: 24%;
+                height: 24%;
+                margin:0 1px 1px;
+                box-shadow: 0 13px 20px 0 rgba(0, 0, 0, 0.25);
+            }
+        }
+    }
+} 
 
    
+@media (max-width: 480px) {
+    .gallery__images_container {
+        width: 60%;
+        height: auto;
+        margin: 20px auto;
+
+        
+        &__item {
+            width: 100%;
+            /* float: left; */
+            
+            margin: 0 auto 10px;
+            box-shadow: 0 13px 20px 0 rgba(0, 0, 0, 0.25);
+            
+
+            &--small{
+                width: 100%;
+                margin: 0 auto 5px;
+                box-shadow: 0 13px 20px 0 rgba(0, 0, 0, 0.25);
+            }
+        }
+    }
 }
